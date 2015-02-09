@@ -1233,7 +1233,7 @@ void CUPFullField::Exec()
 	//////////////////////////////////////////////////////////////////////////
 
 	NodeInput* behaviorTreeInput;
-	behaviorTreeInput = new NodeInput(*pToAgent, m_agents, m_tacagent);
+	behaviorTreeInput = new NodeInput(pToAgent, m_agents, m_tacagent);
 	if (m_eStage == sMani)
 	{
 		//手动控制模式
