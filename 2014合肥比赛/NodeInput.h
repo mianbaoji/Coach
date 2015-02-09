@@ -24,15 +24,17 @@ class NodeInput
 {
 public:
 	NodeInput(CToAgent** m_psendToAgent, uagent* m_thePlayersInformation, 
-		uagent* m_tempThePlayersInformation);
+		uagent* m_tempThePlayersInformation, MSG_Control* m_dicisionalPlayers,
+		int  m_currenStage, int m_lastCtage);
 	~NodeInput();
-
-protected:
 	
-
 	CToAgent* m_pSendToAgent[PLAYER_NUMBER]; /**< The array saved messages to send  to the players */
 	uagent* m_ThePlayersInformation[PLAYER_NUMBER];/**< The array saved messages for  decision-making */
 	uagent* m_TempThePlayersInformation[PLAYER_NUMBER]; /**< The temp array saved messages for  decision-making*/
+	MSG_Control* m_DicisionalPlayers[PLAYER_NUMBER]; /**< the temp array */
+
+	CurrentStage m_CurrenStage;
+	CurrentStage m_LastStage;
 
 };
 

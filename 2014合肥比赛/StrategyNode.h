@@ -21,6 +21,34 @@ class StageStopNode :NodePrioritySelector
 public:
 	StageStopNode(Node* p_parentNode, const char* p_name,
 		NodeExternalPrecondition* p_externalPrecondition);
+
+	NodeRunningSatus Tick(NodeInput& nodeInput, NodeOutput& nodeOutput);
 };
+
+class StageAuto :NodePrioritySelector
+{
+public:
+	StageAuto(Node* p_parentNode, const char* p_name,
+		NodeExternalPrecondition* p_externalPrecondition);
+
+	NodeRunningSatus Tick(NodeInput& nodeInput, NodeOutput& nodeOutput);
+
+};
+
+class StageStart:NodePrioritySelector
+{
+public:
+	StageStart(Node* p_parentNode, const char* p_name,
+		NodeExternalPrecondition* p_externalPrecondition);
+
+	NodeRunningSatus Tick(NodeInput& nodeInput, NodeOutput& nodeOutput);
+
+};
+
+//class ActionToPlayer :NodePrioritySelector
+//{
+//public:ActionToPlayer(Node* p_parentNode, const char* p_name,
+//	NodeExternalPrecondition* p_externalPrecondition);
+//};
 
 #endif
