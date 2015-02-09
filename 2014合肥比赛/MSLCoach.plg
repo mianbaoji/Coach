@@ -1,0 +1,135 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MSLCoach - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/MSLCoach.res" /d "NDEBUG" /d "_AFXDLL" "D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\MSLCoach.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MSLCoach.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ballshot.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\CampCBox.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ClrStr.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\CoachUDP.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ColorDlg.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ConctDomain.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\DebugView.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\DlgDebug.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\DlgRefInfo.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\MSLCoach.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\MSLCoachDlg.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\MulticastSocket.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\NumDisplay.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\OwnGoalCombo.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\PositionCycBuf.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\RefClient.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\TCPClient.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\Xml\tinystr.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\Xml\tinyxml.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\Xml\tinyxmlerror.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\Xml\tinyxmlparser.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ToAgent.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UDPServer.cpp"
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MSLCoach.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MSLCoach.pdb" /machine:I386 /out:"Release/MSLCoach.exe" 
+".\Release\ballshot.obj"
+".\Release\CampCBox.obj"
+".\Release\ClrStr.obj"
+".\Release\CoachUDP.obj"
+".\Release\ColorDlg.obj"
+".\Release\ConctDomain.obj"
+".\Release\DebugView.obj"
+".\Release\DlgDebug.obj"
+".\Release\DlgRefInfo.obj"
+".\Release\MSLCoach.obj"
+".\Release\MSLCoachDlg.obj"
+".\Release\MulticastSocket.obj"
+".\Release\NumDisplay.obj"
+".\Release\OwnGoalCombo.obj"
+".\Release\PositionCycBuf.obj"
+".\Release\RefClient.obj"
+".\Release\StdAfx.obj"
+".\Release\TCPClient.obj"
+".\Release\tinystr.obj"
+".\Release\tinyxml.obj"
+".\Release\tinyxmlerror.obj"
+".\Release\tinyxmlparser.obj"
+".\Release\ToAgent.obj"
+".\Release\UDPServer.obj"
+".\Release\UPFullField.obj"
+".\Release\MSLCoach.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ballshot.cpp
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ballshot.cpp(56) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ballshot.cpp(63) : warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ballshot.cpp(66) : warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ballshot.cpp(72) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+CampCBox.cpp
+ClrStr.cpp
+CoachUDP.cpp
+ColorDlg.cpp
+ConctDomain.cpp
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\ConctDomain.cpp(545) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+DebugView.cpp
+DlgDebug.cpp
+DlgRefInfo.cpp
+MSLCoach.cpp
+MSLCoachDlg.cpp
+MulticastSocket.cpp
+NumDisplay.cpp
+OwnGoalCombo.cpp
+PositionCycBuf.cpp
+RefClient.cpp
+TCPClient.cpp
+tinystr.cpp
+tinyxml.cpp
+tinyxmlerror.cpp
+Generating Code...
+Compiling...
+tinyxmlparser.cpp
+ToAgent.cpp
+UDPServer.cpp
+UPFullField.cpp
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(1846) : warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(2805) : warning C4018: '!=' : signed/unsigned mismatch
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(3349) : warning C4101: 'tmpAng' : unreferenced local variable
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(3933) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(3948) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(3983) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(4016) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(4029) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(4051) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(4486) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(5250) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(5263) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(5280) : warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+D:\产品\旅3\2010款中型组交货光盘\RoboCup中型组比赛程序\比赛程序源代码\MSLCoach_教练机程序\UPFullField.cpp(7592) : warning C4018: '!=' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MSLCoach.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

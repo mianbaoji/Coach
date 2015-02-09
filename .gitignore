@@ -10,7 +10,7 @@
 
 # Compiled Dynamic libraries
 *.so
-*.dylib
+*.dyli
 *.dll
 
 # Fortran module files
@@ -41,24 +41,11 @@
 *.ilk
 *.idb
 
-*.pdb
-*.sbr
-*.bsc
-*.lastbuildstate
-*.res
-*.idb
-*.clw
-*.dsp
-*.dsw
-*.ncb
-*.opt
-*.plg
-*.psess
-*.rc
-*.sdf
-*.sln
-*.suo
-*.vcxproj
-*.filters
-*.rc2
+#visual studio
+/Debug
+/ipch
+/Release
 *.opensdf
+*.sdf
+*.idb
+*.pdb
