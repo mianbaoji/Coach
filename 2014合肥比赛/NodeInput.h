@@ -8,12 +8,16 @@
  *	@brief		The class of behavior tree's input.
  *
  *	Date        Name        Description
- *	06/02/15	ssj			Creation.
+ *	08/02/15	ssj			Creation.
  *********************************************************************/
 
-#pragma once
+#if !defined(AFX_UPFULLFIELD_H__6D15FBB6_5DE4_408C_AE94_83C240DA6ED4__INCLUDED)
+#define AFX_UPFULLFIELD_H__6D15FBB6_5DE4_408C_AE94_83C240DA6ED4__INCLUDED
+
+//#pragma once
 
 #include "UPFullField.h"
+#include"StaticData.h"
 
 
 class NodeInput
@@ -31,3 +35,5 @@ protected:
 	uagent* m_TempThePlayersInformation[PLAYER_NUMBER]; /**< The temp array saved messages for  decision-making*/
 
 };
+
+#endif

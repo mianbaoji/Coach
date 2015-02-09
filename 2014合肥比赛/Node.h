@@ -11,12 +11,17 @@
  *	06/02/15	ssj			Creation.
  *********************************************************************/
 
-#pragma once
+//#pragma once
+
+#if !defined(AFX)
+#define AFX
+
 
 #include "NodeExternalPrecondition.h"
 #include "NodeInput.h"
 #include "NodeOutput.h"
 #include <string>
+#include "StaticData.h"
 
 class Node
 {
@@ -45,9 +50,9 @@ protected:
 
 	enum NodeRunningSatus /**< The status of child Nodes. */
 	{
-		EXECUING = 0,
-		FINISH = 1,
-		ERROR = -1,
+		RUNNING_EXECUING = 0,
+		RUNNING_FINISH = 1,
+		RUNNING_ERROR = -1,
 		// We can add other conditions.
 	};
 
@@ -158,7 +163,7 @@ public:
 };
 
 
-class NodePrioritySelector:private Node
+class NodePrioritySelector:public Node
 {
 public:
 	/*==========================================================================*/
@@ -212,3 +217,6 @@ protected:
 	int m_LastSelectIndex;/**< The child nodes of the evaluate function last selected  */
 
 };
+
+
+#endif

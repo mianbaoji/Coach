@@ -54,32 +54,7 @@ struct preball{
 	preball * next;
 };
 //
-struct uagent 
-{
-	int ID;
-	int x;
-	int y;
-	double angle;
 
-	int V;
-	int V_Angle;
-
-	//move target log
-	int moveto_x;
-	int moveto_y;
-
-	//status
-	UINT status;	//状态
-	bool foundball;	//该ag是否看到了球
-	int dist_ball;	//该ag与球的距离
-
-	//log
-	int logDefAngle;
-
-	bool online;	//该ag是否在线
-	bool allocated; //决策临时变量，表示ag是否已经分配角色
-	bool isAgHoldBall; // 从单体传上来的参数，表示ag是否持球
-};
 
 //球 记录单个球信息
 struct uball

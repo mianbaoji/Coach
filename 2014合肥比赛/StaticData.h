@@ -1,4 +1,10 @@
 
+//#pragma once
+
+
+#if !defined(AFX_OWNGOALCOMBO_H__AFB535D2_CED2_4F92_B092_F6BAC17451FA__INCLUDE)
+#define AFX_OWNGOALCOMBO_H__AFB535D2_CED2_4F92_B092_F6BAC17451FA__INCLUDE
+
 static const int PLAYER_NUMBER = 7;
 
 enum CurrentStage
@@ -64,3 +70,4 @@ struct uagent
 	bool isAgHoldBall; // 从单体传上来的参数，表示ag是否持球
 };
 
+#endif

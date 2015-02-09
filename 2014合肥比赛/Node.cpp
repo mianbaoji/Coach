@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "Node.h"
 
 Node::Node(Node* p_parentNode, const char* p_name,
@@ -125,7 +126,7 @@ NodePrioritySelector::NodeRunningSatus
 NodePrioritySelector::Tick
 (NodeInput& nodeInput, NodeOutput& nodeOutput)
 {
-	NodeRunningSatus tempRunningStatus = FINISH;
+	NodeRunningSatus tempRunningStatus = RUNNING_FINISH;
 	if (Check(m_CurrentSelectIndex))
 	{
 		if (m_LastSelectIndex != m_CurrentSelectIndex)  

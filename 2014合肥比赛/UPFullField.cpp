@@ -259,6 +259,7 @@ CUPFullField::CUPFullField()
 	 final_mid_pass_x = 1800;
 	 final_mid_pass_y = 900;
 	 final_mid_pass_believe = 0;
+	 
 }
 
 CUPFullField::~CUPFullField()
